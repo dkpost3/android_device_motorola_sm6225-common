@@ -188,3 +188,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Inherit from the proprietary version
 include vendor/motorola/sm6225-common/BoardConfigVendor.mk
 include hardware/motorola/dolby/BoardConfigVendor.mk
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_DUP_RULES := true
